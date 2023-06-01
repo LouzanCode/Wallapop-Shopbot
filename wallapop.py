@@ -69,7 +69,7 @@ def Iniciar_sesion():
     
     driver.implicitly_wait(impicitlyWaitTime)
     contra = driver.find_element(By.XPATH, '//*[text()="Contraseña"]')
-    act.move_to_element(contra).click().send_keys("Spyke2016").perform()
+    act.move_to_element(contra).click().send_keys("*****").perform()
     Sleep()
     
     driver.implicitly_wait(impicitlyWaitTime)
